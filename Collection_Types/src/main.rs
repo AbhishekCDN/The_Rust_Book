@@ -8,7 +8,7 @@ fn main() {
     println!("Now let's learn about Vectors");
 
     // Define a  new vector type
-    let mut numbers = Vec::new(); // Create a empty vector
+    let mut numbers: Vec<i32> = Vec::new(); // Create a empty vector
     numbers.push(5);
     numbers.push(6); // add elements
     numbers.push(7);
